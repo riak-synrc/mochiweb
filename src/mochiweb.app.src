@@ -5,5 +5,5 @@
   {modules, []},
   {registered, []},
   {env, []},
-  {applications, [kernel, stdlib, crypto, inets, ssl, xmerl,
-                  compiler, syntax_tools]}]}.
+  {applications, [kernel,stdlib,compiler,syntax_tools,
+                  crypto,asn1,public_key,ssl,inets,xmerl]}]}.
